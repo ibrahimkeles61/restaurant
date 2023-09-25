@@ -14,7 +14,7 @@ export default function SearchBar({ term, onTermChange, onTermSubmit }) {
 
 			<TextInput
 				style={styles.inputStyle}
-				placeholder="Ara"
+				placeholder="Search"
 				autoCorrect={false}
 				autoCapitalize="none"
 				value={term}

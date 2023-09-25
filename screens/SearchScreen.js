@@ -28,17 +28,17 @@ export default function SearchScreen() {
 					{results.length > 0 && (
 						<>
 							<ResultsList
-								title="Cüzdan Dostu Mekanlar"
+								title="Budget Friendly Places"
 								results={filterResultsByPrice("₺")}
 							/>
 
 							<ResultsList
-								title="Beyaz Yakalıların Tercihleri"
+								title="For You, Me, All Of Us"
 								results={filterResultsByPrice("₺₺")}
 							/>
 
 							<ResultsList
-								title="Gurmelerin Seçimleri"
+								title="Gourmet's Choices"
 								results={filterResultsByPrice("₺₺₺")}
 							/>
 						</>

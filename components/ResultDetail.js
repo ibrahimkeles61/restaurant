@@ -9,7 +9,7 @@ export default function ResultDetail({ result }) {
 			/>
 			<Text style={styles.name}>{result.name}</Text>
 			<Text>
-				{result.rating} Yızdızlı Restoran, {result.review_count} Değerlendirme
+				{result.rating} Stars Restaurant, {result.review_count} Reviews
 			</Text>
 		</View>
 	);
